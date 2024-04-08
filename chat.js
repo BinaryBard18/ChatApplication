@@ -385,7 +385,7 @@ function renderMessageLeft(leftMessage){
 document.addEventListener("keydown", function (event) {
 
   if (event.key === "Escape") {
-    bannerEl.innerHTML = ""
+    bannerEl.innerHTML = "Start Chatting with connected friends, or start a new one!"
     bannerEl.style.cssText =
       "height:100%;display:flex;justify-content:center;align-items:center;font-size:1.5rem;";
     overlayTextEl.style.cssText =
