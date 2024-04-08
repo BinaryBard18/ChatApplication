@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    overflow:hidden;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.215), rgba(0, 0, 0, 0.215)), url(./lavaBackground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main--div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 30%;
+    border-radius: 8px;
+    background-color: rgba(28, 27, 27, 0.882);
+    height: 75vh;
+}
+.logo--title{
+    display: flex;
+    margin-top: 1.5rem;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    user-select: none;
+}
+.title{
+    font-size: 3rem;
+    user-select: none;
+}
+input{
+    width:25rem;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    outline: none;
+    text-indent: 10px;
+    color: white;
+    border-radius:8px;
+    background-color: rgba(0, 0, 0, 0.311);
+    border: 2px solid grey;
+}
+.name--input{
+    gap: 0.5rem;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.new--user{
+    color: white;
+    font-size:1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.new--user:hover{
+    text-decoration: underline;
+}
+#lets-chat{
+    font-size: 1.3rem;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor: pointer;
+    color: white;
+    background-color: #4975e8;
+    border: none;
+    border-radius: 8px;
+}
+#lets-chat:hover{
+    background-color:#3a5eb7 ;
+}
+#lets-chat:active{
+    background-color: #2d498f;
+    transform: scale(0.98);
+    transition: 0.2s ease-out;
+}
+#lets-chat-btn{
+    display: none;
+    font-size: 1.3rem;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor: pointer;
+    color: white;
+    background-color: #4975e8;
+    border: none;
+    border-radius: 8px;
+}
+#lets-chat-btn:hover{
+    background-color:#3a5eb7 ;
+}
+#lets-chat-btn:active{
+    background-color: #2d498f;
+    transform: scale(0.98);
+    transition: 0.2s ease-out;
+}
+.btn--message{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#display--id{
+    padding-top: 1rem;
+}
+.new--user{
+    color: white;
+    font-size:1rem;
+    margin-left: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.new--user:hover{
+    text-decoration: underline;
+}
+.btn--message a{
+    width: 50%;
+    text-decoration: none;
+}
+.alert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#alert{
+    padding-top: 0.7rem;
+    color: red;
+}
+#alert--el{
+    padding-top: 0.7rem;
+    color: red;
+}

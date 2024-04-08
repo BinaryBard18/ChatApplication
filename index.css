@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.415), rgba(0, 0, 0, 0.415), black), url(./connectingBackground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo--title{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    height: auto;
+    user-select: none;
+}
+.title{
+    font-size: 3rem;
+    user-select: none;
+}
+.parent--div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 68%;
+    /* background:linear-gradient(rgba(0, 0, 0, 0.488),rgba(0, 0, 0, 0.488),rgba(0, 0, 0, 0.488)); */
+}
+#SignIn{
+    padding: 8px 20px;
+    background-color: #4975e8;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+#SignIn:hover{
+    background-color: #3e62bd;
+}
+#SignIn:active{
+    background-color: #2f4a8e;
+    transform: scale(0.98);
+    transition: 0.2s ease-in;
+}
+.grand--div{
+    height: 100vh;
+}
+.content{
+    height: 78vh;
+    background-color: rgba(62, 59, 59, 0.641);
+    border-radius: 8px;
+    margin-left:2rem;
+    margin-right:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.text--title{
+    color: #4975e8;
+    font-size: 3.4rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.info{
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.text--content{
+    width: 100%;
+}
+.image{
+    width: 45%;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    border-radius: 10px;
+}
+.FinalGif{
+    user-select: none;
+}
